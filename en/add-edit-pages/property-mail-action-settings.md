@@ -2,7 +2,7 @@
 title: Mail Action Setting
 description: 
 published: true
-date: 2026-03-06T08:23:53.066Z
+date: 2026-03-08T05:09:13.942Z
 tags: 
 editor: markdown
 dateCreated: 2026-03-06T08:23:50.276Z
@@ -10,7 +10,7 @@ dateCreated: 2026-03-06T08:23:50.276Z
 
 # Mail Action Settings
 
-The **Mail Action Settings** allow you to trigger an automated email notification whenever a user views a specific record. This is useful for tracking high-value data access or sending automatic confirmations.
+The **Mail Action Settings** allow you to trigger an automated email notification whenever a user adds a specific record. This is useful for tracking high-value data access or sending automatic confirmations.
 
 ![rs-crud-addpage-mailsettings.webp](/assets/add-edit-properties/rs-crud-addpage-mailsettings.webp)
 
