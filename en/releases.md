@@ -2,11 +2,38 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2026-02-09T12:56:33.736Z
+date: 2026-04-02T23:01:57.546Z
 tags: releases, change logs
 editor: markdown
-dateCreated: 2021-12-03T16:13:58.048Z
+dateCreated: 2026-03-16T00:41:46.419Z
 ---
+
+# *Version 9.2.0* - (02-04-2026)
+
+### *New Features* 🎉
+
+* **Added** a **Calendar page component** for **PHP Laravel** projects using the **Bootstrap** frontend, now available under **Page Design**. This component can be added to any **List page** for enhanced scheduling and date visualization capabilities.
+* **Updated** the **API documentation generator** to use the latest **Redocly CLI**.
+
+### *Bug Fixes* 🐞
+
+* **Fixed** an issue in **PHP Laravel** projects using **Bootstrap jQuery** where the **Start with Section Title** property on **Add** and **Edit** forms was not working correctly with the **Field Width** property, which caused page layout breaking. The layout now displays properly without any disruption.
+* **Fixed** the **Disable** property for input controls such as **Text**, **Radio**, and other inputs in **Forms**, which was not functioning correctly. These controls now properly render in a disabled state as expected.
+* **Fixed** the **SELECT** control in **Forms** to respect the **Disable** property when used as **Auto-Complete** or when loading values dynamically from a database table through the **Data Source** property. The dropdown now renders correctly as disabled when the property is set to **true**.
+
+## #️⃣ **Components v2.1.0** - (02-04-2026)
+
+### *New Features* 🎉
+* **Upgraded** **ImageSharp** to **v3.1.11** to resolve a security vulnerability found in the previous version.
+* **Upgraded** **Laravel** to **v12**, with a minimum required PHP version of **v8.2**.
+* **Upgraded** **PrimeVue** to **v4.5**, with a minimum required Node version of **v22.12**.
+* **Upgraded** **Quasar** to **v2.19.1**, with a minimum required Node version of **v22.12**.
+* **Upgraded** **Express.js** to **v5.2.1**, with a minimum required Node version of **v22.12**.
+* **Upgraded** **Python Flask** to **v3.1.3**, with a minimum required Python version of **v3.12**.
+
+### *Bug Fixes* 🐞
+* **Fixed** an issue causing **"too many database connections"** errors in **PHP Laravel** applications during prolonged usage with continuous data entry. This was resolved by preventing persistent MySQL connections, ensuring stable database connectivity over extended sessions.
+* **Fixed** the **SELECT** control's **Disable** property in **Quasar** components, which was not being rendered correctly. The control now properly reflects the disabled state as configured.
 
 # *Version 9.1.2* - (09-02-2026)
 
