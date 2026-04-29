@@ -2,11 +2,40 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2026-04-02T23:01:57.546Z
+date: 2026-04-29T12:51:46.373Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2026-03-16T00:41:46.419Z
 ---
+
+# *Version 9.2.1* - (29-04-2026)
+
+### *New Features* 🎉
+- **Introduced** **EventClick Page** and **DateClick Page** properties for the **Calendar Page Component** in **PHP Laravel** projects using **Bootstrap jQuery** frontend, allowing separate navigation targets for clicking on existing events and empty date areas.
+- **Implemented** form state management for the **Form Wizard Page Component** in **PHP Laravel** projects using **Bootstrap jQuery** frontend. The wizard now maintains form state across steps and includes default functions for reading wizard state and previously submitted values, enabling seamless data binding between master–detail forms.
+- **Enhanced** **Framework Diagnostic Tool** with a **Download** link under Status for missing dependencies, allowing users to open a guided page in the default browser to download or configure required components.
+- **Added** onboarding steps with progress tracking to guide users through application setup and usage, improving the first-time user experience.
+- **Integrated** **Demo Project** link on the first screen of the application for quick access to sample projects.
+- **Integrated** **YouTube videos** and **blog post feeds** within the application, allowing users to stay updated with tutorials and news without leaving the interface.
+- **Added** "**See how it works**" contextual help links across key modules including ***RadAssist***, **Master–Detail Configuration**, **Authentication**, **Roles and Permissions**, **User Records Management**, **Custom End Point**, **Framework Diagnostics**, and **PHP Extension Manager** to improve usability and reduce the learning curve.
+
+### *Bug Fixes* 🐞
+- **Resolved** ***RadAssist*** **SQLite** database file path issues. The application now creates the database file automatically if it does not exist, ensuring smooth database creation workflow.
+- **Enhanced** error messaging during the **Publish Project** process, with ***RadAssist*** errors now being more informative and user-friendly.
+- **Improved** **Framework Diagnostic Tool** to provide clearer information about missing dependencies with a direct **Download** option to simplify dependency resolution.
+
+### *Improvements* ✨
+- **Improved** overall user experience with integrated learning resources and contextual help throughout the application.
+
+## :hash: **Components v2.1.1** - (29-04-2026)
+
+### *New Features* 🎉
+- **Added** **Wizard State Management JavaScript** for **Bootstrap jQuery** to securely manage wizard step values and pass them across steps, enabling better state persistence in multi-step forms.
+
+### *Bug Fixes* 🐞
+- **Improved** **Bootstrap jQuery Calendar** date click and event click behaviors for more reliable interaction handling.
+- **Resolved** Vite build error for projects using **Quasar Vue**.
+- **Fixed** build error for **Express.js** project types. Refined route patterns for controller routes to use curly-brace syntax for optional segments.
 
 # *Version 9.2.0* - (02-04-2026)
 
@@ -21,7 +50,7 @@ dateCreated: 2026-03-16T00:41:46.419Z
 * **Fixed** the **Disable** property for input controls such as **Text**, **Radio**, and other inputs in **Forms**, which was not functioning correctly. These controls now properly render in a disabled state as expected.
 * **Fixed** the **SELECT** control in **Forms** to respect the **Disable** property when used as **Auto-Complete** or when loading values dynamically from a database table through the **Data Source** property. The dropdown now renders correctly as disabled when the property is set to **true**.
 
-## #️⃣ **Components v2.1.0** - (02-04-2026)
+## :hash: **Components v2.1.0** - (02-04-2026)
 
 ### *New Features* 🎉
 * **Upgraded** **ImageSharp** to **v3.1.11** to resolve a security vulnerability found in the previous version.
