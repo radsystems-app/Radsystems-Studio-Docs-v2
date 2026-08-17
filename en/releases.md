@@ -2,11 +2,29 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2026-04-29T12:51:46.373Z
+date: 2026-08-17T10:55:46.526Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2026-03-16T00:41:46.419Z
 ---
+
+# Version 9.3.0 - (17-08-2026)
+
+### *New Features* 🎉
+- **Introduced** AI-assisted translation support within the **App Locale*
+
+### *Improvements* ✨
+- **Enhanced** the AI-powered Database Builder to intelligently recognize and generate appropriate database column data types, resulting in more accurate database schemas and reducing the need for manual adjustments.
+
+## :hash: **Components v2.2.0** - (17-08-2026)
+
+### *New Features* 🎉
+- **Green Forest:** Introduced a new Bootstrap theme featuring a refreshing green color palette inspired by natural forest tones, providing a clean and vibrant look for modern web applications.
+- **Royal Earthen:** Added a new Bootstrap theme that combines rich royal hues with warm earthy tones, offering a professional and elegant visual appearance.
+- **Vertex Blue:** Added a modern Bootstrap theme with a sleek blue color scheme designed for contemporary business and enterprise applications.
+
+### *Bug Fixes* 🐞
+- **Improved** output buffer handling during report exports to prevent export failures caused by server-specific PHP configurations for laravel projects.
 
 # *Version 9.2.1* - (29-04-2026)
 
