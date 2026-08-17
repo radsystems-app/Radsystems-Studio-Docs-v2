@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2026-08-17T10:55:46.526Z
+date: 2026-08-17T10:58:47.355Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2026-03-16T00:41:46.419Z
@@ -11,7 +11,7 @@ dateCreated: 2026-03-16T00:41:46.419Z
 # Version 9.3.0 - (17-08-2026)
 
 ### *New Features* 🎉
-- **Introduced** AI-assisted translation support within the **App Locale*
+- **Introduced** AI-assisted translation support within the *App Locale*
 
 ### *Improvements* ✨
 - **Enhanced** the AI-powered Database Builder to intelligently recognize and generate appropriate database column data types, resulting in more accurate database schemas and reducing the need for manual adjustments.
